@@ -8,8 +8,6 @@ BOM:
 - 12x 1N4148 Diodes
 - 1x SK6812 MINI Led
 - 1x EC11 Rotary Encoder 
-- 1x 330Ω Resistor
-- 1x 0.1µF Capacitor
 - 1x XIAO RP2040
 - 12x Blank DSA Keycaps
 - 4x M3x16 Bolt
