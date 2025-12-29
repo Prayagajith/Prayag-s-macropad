@@ -5,269 +5,6 @@
 	(uuid "728242af-b7ef-4f64-b19c-375b853e9c08")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -2101,18 +1838,6 @@
 		(uuid "64c16aef-865d-40ef-adc8-c6b0040f25f8")
 	)
 	(junction
-		(at 143.51 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7de7428e-a547-4860-83d7-4a51f331eb03")
-	)
-	(junction
-		(at 143.51 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92079448-13b1-4993-a676-5155bce90b5c")
-	)
-	(junction
 		(at 35.56 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,16 +1899,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 43.18) (xy 180.34 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051d8efa-0d77-48ff-9dc1-d1451a913fc3")
-	)
-	(wire
-		(pts
 			(xy 49.53 22.86) (xy 92.71 22.86)
 		)
 		(stroke
@@ -2211,16 +1926,6 @@
 			(type default)
 		)
 		(uuid "0cb5db22-e9ab-4129-a6e4-6cb3fec9bfc0")
-	)
-	(wire
-		(pts
-			(xy 143.51 62.23) (xy 143.51 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d0e3250-4436-4663-a94b-24bc867fda95")
 	)
 	(wire
 		(pts
@@ -2381,16 +2086,6 @@
 			(type default)
 		)
 		(uuid "2e55d49b-96c2-442f-b7d8-f8353eb6caf6")
-	)
-	(wire
-		(pts
-			(xy 143.51 62.23) (xy 154.94 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f8122f-7051-470a-b8c5-6ab25364299d")
 	)
 	(wire
 		(pts
@@ -2764,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 143.51 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d4dcdb-7558-4dad-9203-8cc9edf9ad60")
-	)
-	(wire
-		(pts
 			(xy 39.37 77.47) (xy 53.34 77.47)
 		)
 		(stroke
@@ -2874,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 180.34 35.56)
+			(xy 180.34 34.29) (xy 180.34 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2891,16 +2576,6 @@
 			(type default)
 		)
 		(uuid "dfdbcb48-1b32-43d5-8b36-cbb5213b8465")
-	)
-	(wire
-		(pts
-			(xy 154.94 69.85) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8772395-fc47-4ecb-a349-2d9fe74dd66f")
 	)
 	(wire
 		(pts
@@ -3273,76 +2948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "186a0a08-bad8-4e7c-bba7-766e5b0cfb1c")
-		(property "Reference" "C1"
-			(at 158.75 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 158.75 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 155.9052 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a500dbc-1369-4d79-a396-cd1ff9cbd2a5")
-		)
-		(pin "2"
-			(uuid "9286cd9a-27dd-479a-be8a-26d7c9a91607")
-		)
-		(instances
-			(project ""
-				(path "/728242af-b7ef-4f64-b19c-375b853e9c08"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 39.37 73.66 90)
 		(unit 1)
@@ -3425,76 +3030,6 @@
 			(project "Macro pad hackclub"
 				(path "/728242af-b7ef-4f64-b19c-375b853e9c08"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2753ad02-989c-44a3-a707-7b0456343e64")
-		(property "Reference" "R2"
-			(at 182.88 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 182.88 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 178.562 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5425b49b-cceb-487b-b298-d7f4d1d7d4c3")
-		)
-		(pin "1"
-			(uuid "5a9236a2-072c-4208-b46e-7f89cac865b4")
-		)
-		(instances
-			(project ""
-				(path "/728242af-b7ef-4f64-b19c-375b853e9c08"
-					(reference "R2")
 					(unit 1)
 				)
 			)
