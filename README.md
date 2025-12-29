@@ -1,7 +1,7 @@
 # Prayag's Macropad
 ### My wonderful macropad that can be used for anything like video editting, 3d modeling, and maybe even for streaming
 
-<img width="1407" height="808" alt="Screenshot 2025-12-29 012206" src="https://github.com/user-attachments/assets/33e31086-0bb2-48d5-8087-f8a95752c3ef" />
+<img width="1254" height="752" alt="Screenshot 2025-12-29 143856" src="https://github.com/user-attachments/assets/060f6a24-4d5b-4b88-bfd2-c63118a7ac19" />
 
 BOM:
 - 12x Cherry MX Switches
@@ -15,7 +15,7 @@ BOM:
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/user-attachments/assets/6e0791a6-47f2-43ed-9268-fb6af5dd7455) | ![image](https://github.com/user-attachments/assets/993c3a6d-8863-43bc-9ef7-d57aadda7258) | ![image](https://github.com/user-attachments/assets/297a9bbf-5a97-453b-aecc-c8814bdeb4a1)
+![image](https://github.com/user-attachments/assets/7ea49d3c-de74-49a6-8fd0-95c81650df23) | ![image](https://github.com/user-attachments/assets/c3bcb2f9-1838-4dbb-9646-79e956f96365) | ![image](https://github.com/user-attachments/assets/297a9bbf-5a97-453b-aecc-c8814bdeb4a1)
 
 ## Extra Stuff
 Had no idea what I was doing at the start but learnt along the way and learning new interesting stuff is always fun so had a lot of fun designing this project even though it is simple 
